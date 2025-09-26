@@ -157,6 +157,6 @@ This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- OpenAI for providing the GPT API
+- Gemini for providing the Gemini API
 - FastAPI for the excellent web framework
 - React and Tailwind CSS for the UI components
