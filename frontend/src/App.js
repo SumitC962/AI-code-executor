@@ -13,7 +13,13 @@ import {
   Loader2
 } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8000';
+
+// Use Render backend if in production, otherwise localhost for development
+const API_BASE_URL =
+  process.env.NODE_ENV === "production"
+    ? "https://ai-code-executor-3u0i.onrender.com"
+    : "http://localhost:8000";
+
 
 function App() {
   const [prompt, setPrompt] = useState('');
